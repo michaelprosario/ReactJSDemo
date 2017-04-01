@@ -1,0 +1,35 @@
+﻿@{
+    Layout = null;
+}
+<html>
+<head>
+    <title>Hello React</title>
+    <style>
+
+
+        .codeArea{
+            width:500px;
+            height:300px;
+        }
+
+        table{
+            border:1px solid black;
+            background: cornsilk;
+            padding:20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="content"></div>
+
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.2/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.2/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remarkable/1.7.1/remarkable.min.js"></script>
+    <script src="@Url.Content("~/Scripts/AddingCodeForm.jsx")"></script>
+    <script src="@Url.Content("~/Scripts/CodeItem.jsx")"></script>
+    <script src="@Url.Content("~/Scripts/CodeList.jsx")"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeList", "CodeList\CodeList.csproj", "{7C62724B-E7ED-43D5-AE31-42D828D2EEB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeList.Tests", "CodeList.Tests\CodeList.Tests.csproj", "{978AA333-98A5-46FF-A1E8-C281D14BE504}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C62724B-E7ED-43D5-AE31-42D828D2EEB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C62724B-E7ED-43D5-AE31-42D828D2EEB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C62724B-E7ED-43D5-AE31-42D828D2EEB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C62724B-E7ED-43D5-AE31-42D828D2EEB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{978AA333-98A5-46FF-A1E8-C281D14BE504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{978AA333-98A5-46FF-A1E8-C281D14BE504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{978AA333-98A5-46FF-A1E8-C281D14BE504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{978AA333-98A5-46FF-A1E8-C281D14BE504}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
