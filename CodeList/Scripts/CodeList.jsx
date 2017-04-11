@@ -44,8 +44,7 @@
         return (
             <div>
                 <AddingCodeForm onNewRecord={this.loadData} />
-                <div className="codeList">{codeNodes}
-                </div>
+                <div className="codeList">{codeNodes}</div>
             </div>
         );
     }

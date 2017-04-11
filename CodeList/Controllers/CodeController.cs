@@ -15,6 +15,11 @@ namespace CodeList.Controllers
             return View();
         }
 
+        public ActionResult SimpleDemo()
+        {
+            return View();
+        }
+
         public JsonResult GetCodeList()
         {
             var repo = new CodeRepo();
